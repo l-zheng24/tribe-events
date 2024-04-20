@@ -1,0 +1,602 @@
+[
+    {
+        "start_time": "09:00",
+        "end_time": "22:00",
+        "title": "tribehacks ix",
+        "event_loc": "Swem Library",
+        "building": "SWEM",
+        "short_desc": "",
+        "event_date": "2024-04-20",
+        "long_desc": "Hi Everyone! \n It\u2019s that time of year again; William & Mary\u2019s very own student hackathon, TribeHacks IX, returns to Swem Library from April 20 to April 21, 2024. Historically the event has been attended by as many as 400 students from William & Mary and other schools in the surrounding area. There are plenty of opportunities for students to get involved, especially those with a passion for technology like you.\n First of all, we\u2019re looking for students to lead workshops at the hackathon. The event is designed to accommodate all skill and experience levels, so we need a variety of workshops from absolute beginner to more advanced levels. If there\u2019s something you\u2019re passionate about, confident in, and/or interested in learning more about, please don\u2019t hesitate to sign up to lead a workshop here! \n\nSecond, our planning meetings are weekly in Tucker 222 from 6-7 PM on Mondays. This is a great time to ask questions or volunteer to help out on one or two of the many tasks that go into making this hackathon a rewarding experience for our attendees! We need day-of volunteers as well! Volunteers help pick up and set up the catered meals, answer attendee questions, and make sure that TribeHacks is a memorable experience for the attendees. Those who volunteered last year say that it was a highlight of their semester. If that sounds like something you\u2019d like to do, fill out this interest form!\n\nLastly (and certainly most importantly), we need attendees! Our website, tribehacks.com, is live and accepting registrations to attend the hackathon. Please talk to your friends, and whether they have no idea what Python is or have been programming for years, we\u2019d love for them to sign up to attend. We\u2019ll have plenty of team-building games, programming challenges, free food, and lots of awesome people to meet. There will also be a career fair where attendees can meet recruiters looking for people with technical skills to work for their companies. It\u2019s basically a giant Swem lock-in and will definitely be a weekend to remember.\n Aside from the fact that it is a ton of fun, a successful TribeHacks will have an array (no pun intended) of benefits for our CS department. A goal of TribeHacks this year is to make visible our identity as a Computer Science department at a liberal arts school, and all the unique benefits that identity brings to students. Student engagement in Computing and Data Science is super important in making sure William & Mary can continue to provide a great education in these in-demand areas for years to come. \n The TribeHacks planning team would appreciate any and all involvement you can put in to help make this event a success. We hope to see you on Mondays at 6 PM or on April 20th! Thanks for your time!\n Best,\nTribeHacks IX Planning Team\nSponsored by: Association for Computing Machinery, Developer Student Club at W&M, Robotics Club at William and Mary, and Society of Women in Computing"
+    },
+    {
+        "start_time": "10:00",
+        "end_time": "12:00",
+        "title": "Williamsburg Jamestown Airport Tour",
+        "event_loc": "Williamsburg-Jamestown Airport",
+        "building": "JAMESTOWN_FIELD",
+        "short_desc": "",
+        "event_date": "2024-04-20",
+        "long_desc": "Please fill out this Google Form in order to receive more information about this event!\nTribe Aviation will be touring Williamsburg-Jamestown Airport (KJGG) on April 20th. We will start with a tour of Williamsburg Flight Center, which is the local flight school. Next we will meet with the VP of KJGG's local Experimental Aircraft Association. He will talk about the organization and show off his RV-7A! There will also be an opportunity to sit in a Cessna 172! Then we will speak to some of the airport staff and learn about the operation of the KJGG! Finally, we will enjoy lunch at Williamsburg Jamestown Airport's sandwich shop, Charly's!\nTransportation from W&M is offered. Those who need transportation should check the box on the Google Form. Those who drive themselves can meet us at Williamsburg-Jamestown Airport at 10:00AM.\nPlease fill out this Google Form in order to receive more information about this event!\nSponsored by: Aviation Club"
+    },
+    {
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "title": "Out of the Darkness: Suicide Prevention Campus Walk",
+        "event_loc": "McLeod Tyler Wellness Center, Social Wellness Patio",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "A walk to prevent suicide and encourage help-seeking",
+        "event_date": "2024-04-20",
+        "long_desc": "Suicide is preventable and mental health is just as important as physical health. You, our Walkers, help make a difference. Join ATO to change the conversation, create a world without suicide, and support the American Foundation for Suicide Prevention (AFSP). Visit our website for more information on how to join or meet us on the Patio of the McLeod Tyler Wellness Center before the start of the walk.\nWalk Registration: 10 a.m.\nWalk Begins: 11 a.m.\nSponsored by: Alpha Tau Omega"
+    },
+    {
+        "start_time": "11:00",
+        "end_time": "14:00",
+        "title": "Earth Day Bash '24",
+        "event_loc": "Crim Dell Meadow",
+        "building": "CRIM_DELL_MEADOW",
+        "short_desc": "",
+        "event_date": "2024-04-20",
+        "long_desc": "Earth Day Bash 2024 will be held on Saturday, April 20th from 11 AM-2 PM on Crim Dell Meadows. Come out to enjoy live music, free food, and tons of activities! There will be many student organizations and departments tabling with activities such as trivia, a pop-up thrift shop, and art projects. You might even leave the event with a new plant, stickers, and more. There will also be an upcycled art competition to vote on, which you can register to compete it at this link: https://forms.gle/NfDbL82UfCUHierc6, and the winners will be announced at the end of our event. \nAll students, faculty, staff, and Williamsburg community members are invited to attend. Bring your family and friends for a day of fun and to celebrate our lovely Earth!\n* In the chance of rain, the event will be held in the Miller Hall atrium. \nEvent hosted by the Office of Sustainability and Student Assembly. \nSponsored by: Committee on Sustainability: W&M Sustainability and Student Assembly"
+    },
+    {
+        "start_time": "11:00",
+        "end_time": "19:00",
+        "title": "Griffincon",
+        "event_loc": "Blair Hall",
+        "building": "BLAIR",
+        "short_desc": "",
+        "event_date": "2024-04-20",
+        "long_desc": "Griffincon is a free convention for the W&M community hosted by Science Fiction and Fantasy Club in partnership with Tabletop Club, WizMug, Pok\u00e9mon Club, Anime Society, Tolkien Society, Quizbowl, and CosClub. At the event there will be an Panels, Trivia, Games, Music, Readings, \"Virginia Bowl\", and a Costume Contest.\nSponsored by: Anime Society, Costuming Club, Pokemon Club at the College of William and Mary, Quizbowl, Science Fiction & Fantasy Club, Tabletop Roleplaying Games Club, Wizards And Muggles, and YIS:Tolkien Society at W&M"
+    },
+    {
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "title": "1991 Linux Club Weekly Meeting",
+        "event_loc": "ISC 1280",
+        "building": "ISC",
+        "short_desc": "",
+        "event_date": "2024-04-20",
+        "long_desc": "Sponsored by: 1991 Linux"
+    },
+    {
+        "start_time": "19:06",
+        "end_time": "20:45",
+        "title": "Train Like an Alpha 2024: Alphawood",
+        "event_loc": "Martha Wren Briggs Amphitheater at Lake Matoaka",
+        "building": "LAKE_MATOAKA",
+        "short_desc": "",
+        "event_date": "2024-04-20",
+        "long_desc": "Join the Kappa Pi Chapter of Alpha Phi Alpha Fraternity, Inc. at the Matoaka Amphitheatre on April 20th at 7:06 PM for \"Train Like an Alpha: Alphawood!\" This highly anticipated event showcases exciting routines incorporating traditional Alpha stroll moves performed by competing teams for a chance at a $1,000 prize! Please find relevant ticket information via the attached link. \n  Sponsored by: Alpha Phi Alpha Fraternity, Inc., Fraternity/Sorority Life, and National Pan-Hellenic Council"
+    },
+    {
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "title": "Salad Sprouting Workshop",
+        "event_loc": "McLeod Tyler Wellness Center, Studio A",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "In this experiential program, learn the benefits of sprouting beans and seeds that can complement sandwiches and salads. Choose your seeds to grow and leave with sprouting supplies to bring vitality and nutrition to your meals.",
+        "event_date": "2024-04-21",
+        "long_desc": "Sponsored by: McLeod Tyler Wellness Center"
+    },
+    {
+        "start_time": "16:00",
+        "end_time": "18:00",
+        "title": "OCF Slava",
+        "event_loc": "Chancellors Hall 133",
+        "building": "CHANCELLORS",
+        "short_desc": "",
+        "event_date": "2024-04-21",
+        "long_desc": "The Orthodox Christian Fellowship at the College of William & Mary will be celebrating our patron saint day, St. Mary of Egypt, in the Serbian fashion this Sunday! The Slava is a UNESCO Intangible Cultural Heritage event, and is one of the hallmarks of Serbian culture. As OCF is a diverse organization, the full range of our Eastern European and Middle Eastern cultures will be on display during this dinner!\nSponsored by: Orthodox Christian Fellowship"
+    },
+    {
+        "start_time": "17:30",
+        "end_time": "18:30",
+        "title": "Panhellenic Council Meeting",
+        "event_loc": "James Room, Sadler Center",
+        "building": "SADLER",
+        "short_desc": "",
+        "event_date": "2024-04-21",
+        "long_desc": "The Panhellenic Council (consisting of the Panhellenic Executive Board, Advisor, and Chapter Delegates) will meet weekly to discuss current and future operations and programming. For questions or concerns that are of importance to the Panhellenic community, please reach out to an attendee of this meeting, whether a board member or a chapter delegate. \nSponsored by: Panhellenic Council"
+    },
+    {
+        "start_time": "19:00",
+        "end_time": "21:00",
+        "title": "VOX's Annual Spring Gala",
+        "event_loc": "The Daily Grind",
+        "building": "GRIND",
+        "short_desc": "",
+        "event_date": "2024-04-21",
+        "long_desc": "VOX: Planned Parenthood Generation Action at William & Mary brings you a Gala evening. On April 21st from 7 to 10 PM, join us for a night of food, music, drinks, and a silent auction! This social is hosted by VOX and open for the wider campus. Tickets are free for dues-paying members and $5 for everyone else. The attire is formal, but attendees should wear whatever they feel most comfortable in! We hope to see you there <3\nSponsored by: Vox: Planned Parenthood Generation Action"
+    },
+    {
+        "start_time": "10:00",
+        "end_time": "12:00",
+        "title": "Dissertation Proposal - Kenneth Howard Koltermann, Computer Science",
+        "event_loc": "McGlothlin-Street Hall, Zoom",
+        "building": "MCGLOTHLIN",
+        "short_desc": "Dissertation Proposal - Kenneth Howard Koltermann, Computer Science\nTitle: Machine Learning and Wearable Computing for the Detection and Treatment of Neurological Diseases\nCo-advisors: Dr. Gang Zhou\nZoom Link",
+        "event_date": "2024-04-22",
+        "long_desc": "Abstract:\nOver the past decade, ubiquitous sensing has been increasingly explored as a viable means collect patient health data to improve how doctors can diagnose neurological disorders and diseases.  As machine learning methods continue to be improved by researchers from the computer science community, machine learning has seen a slower adoption by healthcare researchers to automatically detect and treat symptoms of neurological diseases such as Parkinson's disease. In this dissertation, I investigate how wearable computing and machine learning can be used to automatically detect and treat symptoms of Parkinson's disease (PD), freezing of gait (FoG) and hand tremors, in both real-time and offline settings.\n\nFirst, we designed a FoG detection and treatment system, FoG-Finder, which combines ubiquitous sensing, mobile computing, and machine learning to automatically detect and treat FoG symptoms in real-time. We first created time and frequency domain features using domain knowledge about how FoG symptoms manifest. Then, we used a multi-input convolutional neural network (CNN) model on a smartphone for real-time inference of FoG/non-FoG gait. To evaluate FoG-Finder, we collected data from 11 (PD) patients consisting of 716 FoG events. FoG-Finder beat the previous state-of-the-art, obtaining a 13.4% higher F1 score and 10.7% higher overall accuracy compared with other validated real-time FoG detection and treatment systems in a leave-one-subject-out (LOSO) setting. FoG-Finder also obtained an average treatment latency of 427ms and 615ms for subject-dependent and LOSO settings, respectively, proving FoG-Finder to be a viable FoG detection and treatment system for real-world use by PD patients.\n\nSecond, we further improved real-time FoG detection by identifying that turns are the most common aspect of non-FoG gait falsely identified by prior FoG detection systems as FoG, leading to treatment application when it is not needed.  To address this revelation, we designed the Gait-Guard wearable FoG detection and treatment system.  The system generates hand-crafted features derived from domain knowledge about the various ways that PD patients can express turns during non-FoG gait, and uses a light-weight multivariate time-series transformer model capable of real-time inference on mobile hardware to detect FoG symptoms. We evaluated Gait-Guard on a dataset we collected consisting of 26 PD patients and a total of 1591 FoG events. Gait-Guard was able to obtain a FoG event accuracy of 96.5% with a reduction in the false positive treatment rate of 112% compared to prior real-time FoG detection works including FoG-Finder. Gait-Guard is demonstrated to work for real-time treatments with an average FoG detection latency of just 378.5ms in a LOSO setting.\n\nThird, we are currently studying how real-time FoG detection models can be adapted to supply accurate FoG labels to automate the clinical FoG labeling process. We collected a FoG-rich dataset containing 41 PD patients while they walked through the five most common FoG triggering scenarios. We plan to combine a rules-based approach derived from domain knowledge about the FoG labeling process with machine learning to accurately provide start and end times to FoG time segments, something that no other research work has addressed.\n\nFinally, we will explore how wearable computing and machine learning can automatically detect and treat PD hand tremor symptoms in real-time, and leverage the real-time inference of our machine learning models to supply accurate hand tremor labels to clinicians in an offline setting. This will further improve how PD clinicians can monitor and treat their patients. Overall, we utilized wearable computing and machine learning to facilitate the detection and treatment of symptoms of Parkinson's disease. Our results show that combining wearable computing and machine learning can improve how PD clinicians monitor and treat their patients.\n\nBio:\nKenneth Howard Koltermann is a Ph.D. candidate in the Computer Science Department at William & Mary, under the supervision of Prof. Gang Zhou. His research focuses on wearable computing and machine learning for healthcare. His Ph.D. research has been published in IEEE/ACM CHASE 2023 and 2024. He is a recipient of an Entrepreneur-in-Residence grant at William & Mary and is currently working on commercialization of his research through the startup Motion Medix LLC. He received his master's degree in computer science from William & Mary and his bachelor's degree in computer science from California State University, East Bay.\n\n\nSponsored by: Computer Science"
+    },
+    {
+        "start_time": "10:00",
+        "end_time": "12:30",
+        "title": "Blackboard Ultra Open Lab Visits",
+        "event_loc": "Alan B. Miller Hall (Business School), Room 2017",
+        "building": "BSCHOOL",
+        "short_desc": "Stop by and visit with IT to assist in transitioning your Blackboard course.",
+        "event_date": "2024-04-22",
+        "long_desc": "Bring your laptop and questions and stop by Jones Hall Room 203 to get help with transitioning your Original Courses to Ultra. IT will be available from 10:00am-12:30pm.\nSponsored by: Information Technology"
+    },
+    {
+        "start_time": "11:00",
+        "end_time": "12:30",
+        "title": "Pet Therapy with Guinness",
+        "event_loc": "McLeod Tyler Wellness Center, Lobby",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "",
+        "event_date": "2024-04-22",
+        "long_desc": "Guinness the dog will be at the McLeod Tyler Wellness Center! Stop by the Lobby to spend some time with Guinness and get a dose of Pet Therapy. \nSponsored by: Mcleod Tyler Wellness Center"
+    },
+    {
+        "start_time": "12:00",
+        "end_time": "14:00",
+        "title": "Acupuncture Lounge",
+        "event_loc": "McLeod Tyler Wellness Center, Studio B",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "The Acupuncture Lounge is the first of its kind in Williamsburg. This model of care removes as many barriers as possible to accessible treatments ensuring a stable and reliable supply of affordable acupuncture for the WM and local community. ",
+        "event_date": "2024-04-22",
+        "long_desc": "The Acupuncture Lounge is your go-to, one-stop place to reset your nervous system when you are feeling stressed and overwhelmed. Sitting or lying down in a large room overlooking nature, the Licensed Acupuncturists will use micro-sized, one-time use, sterile stainless steel, filiform needles in the ear or distal location (elbows to fingers, knees to toes, or scalp) in a group setting to induce a relaxation response. You will then rest with the needles in for about 20-30 minutes. From beginning to end, the total appointment lasts approximately 30-45 min.\nSponsored by: Mcleod Tyler Wellness Center"
+    },
+    {
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "title": "Skateclub Picks Up Trash",
+        "event_loc": "Sadler Terrace",
+        "building": "SADLER",
+        "short_desc": "",
+        "event_date": "2024-04-22",
+        "long_desc": "Come out and ride your board, bike, scooter, skates, blades, or feet around campus with us to pick up trash in honor of Earth Day!\nSponsored by: Citizens' Climate Lobby at William and Mary and Skateboarding Club"
+    },
+    {
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "title": "SA Finance Department Office Hours",
+        "event_loc": "Sadler 283",
+        "building": "SADLER",
+        "short_desc": "",
+        "event_date": "2024-04-22",
+        "long_desc": "The Student Assembly Finance Department is pleased to share that we will be holding weekly office hours for students to attend. Office Hours will be held by each Undersecretary of Finance and the Secretary of Finance. Our goal is to ensure you have the ability to ask any and all questions you may have about the OBAC funding process. The purpose of these Office Hours is to help educate Registered Student Organizations on the intricacies of our quarterly budget allocation process while also promoting transparency! \nSponsored by: Organization Budget Allocation Committee and Student Assembly"
+    },
+    {
+        "start_time": "16:00",
+        "end_time": "18:00",
+        "title": "Earth Day Panel: Michael P. Branch '85 and Dean King",
+        "event_loc": "Swem Library, Ford Classroom",
+        "building": "SWEM",
+        "short_desc": "W&M Libraries and the Institute for Integrative Conservation & Office of Sustainability have partnered together to host award-winning authors, Michael Branch '85 and Dean King for an Earth Day panel discussion. ",
+        "event_date": "2024-04-22",
+        "long_desc": "W&M Libraries and the Institute for Integrative Conservation & Office of Sustainability have partnered together to host award-winning authors,  Michael Branch '85 and Dean King for an Earth Day panel discussion. There will be a book signing following the talk, and the W&M Spirit Shop & Bookstore will be on site selling copies. Light refreshments will be available.  Please register using the link below. Free and open to all!\n\nAbout the authors:\nMike Branch '85 is a W&M alum, writer, humorist, environmentalist, father, and desert rat who lives with his wife and two young daughters in the western Great Basin Desert. His work includes nine published books, one of which is the Pulitzer Prize-nominated John Muir\u2019s Last Journey: South to the Amazon and East to Africa (Island Press). Mike, who is Professor of Literature and Environment and University Foundation Professor at the University of Nevada, Reno, is co-founder and past president of the Association for the Study of Literature and Environment (ASLE), served for sixteen years as the Book Review Editor of ISLE: Interdisciplinary Studies in Literature and Environment, and is a co-founder and series co-editor of the University of Virginia Press book series Under the Sign of Nature: Explorations in Ecocriticism. He is the recipient of Ellen Meloy Desert Writers Award, the Nevada Writers Hall of Fame Silver Pen Award, the Western Literature Association Frederick Manfred Award for Creative Writing, the Willa Pilla Award for Humor Writing, and his books have been finalists for the Sigurd Olson Nature Writing Award, the Association for the Study of Literature and Environment Creative Book Award, and the Mountain West Center Evans-Handcart Award. \nDean King is an award-winning author of ten nonfiction books. Dean relishes the adventures involved in making history come to life while at the same time diligently searching out the truth and turning up new historical detail. While researching his national bestseller Skeletons on the Zahara, he crossed the Sahara on camels and in Land Rovers. He trekked the Long March trail in the Snowy Mountains of Western China while researching Unbound and was shot at in Appalachia while writing The Feud. For his most recent book, Guardians of the Valley, Dean traveled to John Muir\u2019s boyhood homes in Dunbar, Scotland, and rural Wisconsin and spent months roaming Yosemite National Park and the Sierra Nevada. Dean\u2019s writing has also appeared in the Daily Telegraph, Granta, Garden & Gun, National Geographic Adventure, Outside, Travel + Leisure, New York, the New York Times, the Wall Street Journal and Virginia Living. He is a partner in Gum Street Productions, making documentary films.\n\nSponsored by: W&M Libraries and Institute for Integrative Conservation & Office of Sustainability"
+    },
+    {
+        "start_time": "17:00",
+        "end_time": "20:00",
+        "title": "Earth Day at VIMS: Plein Air Paint Along and Demonstration",
+        "event_loc": "VIMS - Davis Hall, Riverfront Lawn behind Davis Hall; 7539 Spencer Rd, Gloucester Point, VA 23062",
+        "building": "LAW_SCHOOL",
+        "short_desc": "Join VIMS on Earth Day (4/22) from 5-8 PM on the Riverfront Lawn for a paint-along, mini-workshop, and \"plein air\" (open air) painting demonstration with award-winning American Impressionist painter Tricia Bass of Evergreen, Colorado (www.TriciaBass.com).",
+        "event_date": "2024-04-22",
+        "long_desc": "Award-winning American Impressionist painter Tricia Bass of Evergreen, Colorado will be hosting a paint-along, mini-workshop and \u201cplein air\u201d (French for open air) painting demonstration on Monday, April 22nd (Earth Day!) from 5:00 \u2013 8:00 PM on the Riverfront Lawn of the Virginia Institute of Marine Science (VIMS) in Gloucester Point, VA. This event is free to the public but attendees must register using the link below. Participants can bring their own easel and painting supplies or they can try their hand with painting on one of two shared easels. A suggested supply list will be sent to attendees upon registration. Observers are also welcome, please bring your own chair. This is an event geared toward adults but a limited number of children may attend if accompanied by a parent or caregiver.\nBass is a visiting guest artist and advisor for a future, planned artist-in-residency program to be hosted yearly by VIMS. She paints the American west with a colorful, painterly style and is excited about painting in and around the Chesapeake Bay. Tricia is a signature member of Plein Air Artists of Colorado and spends a great deal of time painting \u201cen plein air\u201d throughout the Rocky Mountain west. She is also a member of the national Women Artists of the West and the American Impressionist Society. Tricia\u2019s work can be viewed on her website at www.TriciaBass.com.\n\n\n\nSponsored by: VIMS Marine Advisory Program & VIMS Communications and Marketing"
+    },
+    {
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "title": "Weekly Meeting",
+        "event_loc": "Tucker Hall, Rm. 221",
+        "building": "TUCKER",
+        "short_desc": "",
+        "event_date": "2024-04-22",
+        "long_desc": "The Black Poets Society's weekly meeting where Society members discuss submissions and updates while also writing and sharing poetry with each other. This meeting is open to everyone, including non-Society members. \nSponsored by: Black Poets Society"
+    },
+    {
+        "start_time": "09:00",
+        "end_time": "10:30",
+        "title": "Giving and Receiving Feedback",
+        "event_loc": "Sadler Center, Tidewater AB",
+        "building": "SADLER",
+        "short_desc": "This workshop will provide techniques and approaches to both giving and receiving feedback.",
+        "event_date": "2024-04-23",
+        "long_desc": "Giving and receiving feedback is hard. It is hard to know how to start a conversation, what to do when the conversation starts to go awry, and how to ensure the conversation is healthy and productive. This workshop will cover these topics and provide time for practice both giving and receiving feedback.\nSponsored by: University Human Resources"
+    },
+    {
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "title": "FitWell Class: Creative Arts with Sarah",
+        "event_loc": "McLeod Tyler Wellness Center, Studio A",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "",
+        "event_date": "2024-04-23",
+        "long_desc": "Using a variety of artistic mediums we'll explore feelings and work on relaxing your mind and body. No art experience is necessary; the focus is on self-expression and connecting with others. Gain insight into your emotions, learn new coping skills, and process feelings with peers in a supportive environment. Led by Certified Art Therapist, Sarah Balascio."
+    },
+    {
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "title": "SA Finance Department Office Hours",
+        "event_loc": "Sadler 283",
+        "building": "SADLER",
+        "short_desc": "",
+        "event_date": "2024-04-23",
+        "long_desc": "The Student Assembly Finance Department is pleased to share that we will be holding weekly office hours for students to attend. Office Hours will be held by each Undersecretary of Finance and the Secretary of Finance. Our goal is to ensure you have the ability to ask any and all questions you may have about the OBAC funding process. The purpose of these Office Hours is to help educate Registered Student Organizations on the intricacies of our quarterly budget allocation process while also promoting transparency! \nSponsored by: Organization Budget Allocation Committee and Student Assembly"
+    },
+    {
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "title": "Pet Therapy With Stella ",
+        "event_loc": "McLeod Tyler Wellness Center, Lobby",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "",
+        "event_date": "2024-04-23",
+        "long_desc": "Stella and her handler, Dr. Mark Sullivan will be at the McLeod Tyler Wellness Center each Tuesday and Thursday from 11 AM - 1 PM. Stop by the Lobby to spend some time with Stella and a dose of Pet Therapy. \nSponsored by: Mcleod Tyler Wellness Center"
+    },
+    {
+        "start_time": "11:00",
+        "end_time": "15:00",
+        "title": "Order Your W&M Ring!",
+        "event_loc": "Sadler Center Atrium",
+        "building": "SADLER",
+        "short_desc": "",
+        "event_date": "2024-04-23",
+        "long_desc": "Special pricing applies for rings purchased during these ring sales events and all students who place an order will receive a custom W&M ring box. Order now to participate in the Fall 2024 Ring Ceremony held during Family Weekend in September. Any student with 60 credit hours or more is eligible to participate in the ceremony and in order to do so, rings must be ordered now. \nTo learn more about the W&M Ring, visit this link.\nSponsored by: Student Transition Engagement Programs of W&M"
+    },
+    {
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "title": "Boiled Owls : Art & Poetry Workshop ",
+        "event_loc": "McLeod Tyler Wellness Center, Studio B",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "",
+        "event_date": "2024-04-23",
+        "long_desc": "Art Therapist Sarah Balascio is joined by Poet and Publisher,  Azad Sharma for a workshop that explores the therapeutic benefits of creative expression. Sharma is visiting campus for the release of his work \"Boiled Owls\", a collection of poems that demystify drug addiction, alcoholism, depression, and anxiety\nSponsored by: McLeod Tyler Wellness Center"
+    },
+    {
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "title": "Knitting Circle",
+        "event_loc": "McLeod Tyler Wellness Center, Studio B",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "",
+        "event_date": "2024-04-23",
+        "long_desc": "Experience the meditative quality of knitting. Bring a project to complete or start a new one as we improve our social wellness in a relaxed group. Notice how knitting can lower blood pressure and improve your mood.\nRegistration and an active FitWell Membership are required, free for full-time students\nRegistration opens 48 hours in advance, sign-up on the W&M Wellness app or online, wellness.wm.edu"
+    },
+    {
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "title": "SA Finance Department Office Hours",
+        "event_loc": "Sadler 283",
+        "building": "SADLER",
+        "short_desc": "",
+        "event_date": "2024-04-23",
+        "long_desc": "The Student Assembly Finance Department is pleased to share that we will be holding weekly office hours for students to attend. Office Hours will be held by each Undersecretary of Finance and the Secretary of Finance. Our goal is to ensure you have the ability to ask any and all questions you may have about the OBAC funding process. The purpose of these Office Hours is to help educate Registered Student Organizations on the intricacies of our quarterly budget allocation process while also promoting transparency! \nSponsored by: Organization Budget Allocation Committee and Student Assembly"
+    },
+    {
+        "start_time": "15:00",
+        "end_time": "17:00",
+        "title": "Blackboard Ultra Open Lab Visits",
+        "event_loc": "School of Education, Room 2031",
+        "building": "SCHOOL_OF_ED",
+        "short_desc": "Stop by and visit with IT to assist in transitioning your Blackboard course.",
+        "event_date": "2024-04-23",
+        "long_desc": "Bring your laptop and questions and stop by Jones Hall Room 203 to get help with transitioning your Original Courses to Ultra. IT will be available from 3pm-5pm. \nSponsored by: Information Technology"
+    },
+    {
+        "start_time": "15:00",
+        "end_time": "17:00",
+        "title": "School of Education Office of D&I Spring Book Club 1: Year of the Tiger: An Activist's Life",
+        "event_loc": "School of Education, Zoom",
+        "building": "SCHOOL_OF_ED",
+        "short_desc": "Join us for a book club discussion of Year of the Tiger: An Activist's Life by Alice Wong. ",
+        "event_date": "2024-04-23",
+        "long_desc": "Join us for a book club discussion of Year of the Tiger: An Activist's Life by Alice Wong. You can join us for one or all synchronous discussions as well as engage in asynchronous discussions hosted throughout April  Register using this form and indicate your preferred group time/format. \nSponsored by: School of Education Office of Diversity & Inclusion"
+    },
+    {
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "title": "FitWell Pop-Up: Mindful Habits for Better Sleep: Students ",
+        "event_loc": "McLeod Tyler Wellness Center",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "",
+        "event_date": "2024-04-23",
+        "long_desc": "It is now recognized that sleep preparation actually begins the moment we wake up. In this program, several elements in our external world that support quality sleep will be discussed, along with mindfulness strategies that can be interspersed throughout the day priming the brain for greater sleep quality at night. Led by Martha Rouleau\nSponsored by: McLeod Tyler Wellness Center"
+    },
+    {
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "title": "Alumni Connection: Dr. Eric Freeman, MD, class of 1998",
+        "event_loc": "Sadler Center, York",
+        "building": "SADLER",
+        "short_desc": "",
+        "event_date": "2024-04-23",
+        "long_desc": "The Alumni Connection Series draws to a close with a conversation with Dr. Eric Freeman, M.D., class of 1998. Dr. Freeman will talk to scholars about his journey from W&M student to the owner of a successful medical practice, and how he navigated medical school, residency and beyond. Dr. Freeman, who has been practicing general pediatrics in the Richmond community for the past 18 years, opened Old Dominion Pediatrics in August of 2012. He is a Diplomate of the American Board of Pediatrics where he carries board certification in general pediatrics.\nSponsored by: Monroe Scholars"
+    },
+    {
+        "start_time": "16:30",
+        "end_time": "17:30",
+        "title": "Pet Therapy w/ Occam ",
+        "event_loc": "McLeod Tyler Wellness Center, Lobby",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "Need some puppy love? Occam the dog will be at the McLeod Tyler Wellness Center! Stop by the Lobby to spend some time with Occam and get a dose of Pet Therapy.",
+        "event_date": "2024-04-23",
+        "long_desc": "Need some puppy love? Occam the dog will be at the McLeod Tyler Wellness Center! Stop by the Lobby to spend some time with Occam and get a dose of Pet Therapy.\nSponsored by: McLeod Tyler Wellness Center"
+    },
+    {
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "title": "The Milton & Shirley G. Salasky Lecture -- Professor Piero Capelli",
+        "event_loc": "Ewell Hall, Room 107",
+        "building": "EWELL",
+        "short_desc": "Join the Judaic Studies Program for The Milton & Shirley G. Salasky Lecture!",
+        "event_date": "2024-04-23",
+        "long_desc": "\"A Source of Shame and Horror: Discovering, Translating, and Burning the Talmud in Medieval Christian Europe\" by Professor Piero Capelli\nAt Paris in 1240, the Babylonian Talmud underwent a public trial that spurred a number of significant landmarks in Jewish, Christian and European history. Not least was the first translation of Talmud into a non-Jewish language, Latin. But more telling was the first attested burning of Jewish books in history, an event that launched a long tradition of Christian censorship and persecution against Rabbinic lore.\nPiero Capelli is Professor of Hebrew in the Department of Asian and North African Studies at Ca\u2019 Foscari University of Venice. A scholar of late antique and medieval Judaism, he is the author of two important Italian monographs on Rabbinic Judaism: Rabbinic Literature from the Time of Jesus to the Closing of Talmud (1996) and Evil: The History of an Idea in Judaism from the Bible to Qabbalah (2012).\n\nSponsored by: Judaic Studies Program"
+    },
+    {
+        "start_time": "19:00",
+        "end_time": "20:15",
+        "title": "Student Assembly Weekly Senate Meeting",
+        "event_loc": "Sadler Center, James Room",
+        "building": "SADLER",
+        "short_desc": "",
+        "event_date": "2024-04-23",
+        "long_desc": "Student Assembly Senate meetings are held weekly on Tuesday nights at 7pm. Senate is the legislative body of the Student Assembly. Senate Representatives can be found here. These meetings are open to the student body and will be in person during the Spring 2024 semester. This is your student government and your opportunity for your voice to be heard. Public Comment takes place at the beginning and end of the Senate Meeting.\nSponsored by: Student Assembly"
+    },
+    {
+        "start_time": "09:30",
+        "end_time": "11:30",
+        "title": "Acupuncture Lounge",
+        "event_loc": "McLeod Tyler Wellness Center, Studio B",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "The Acupuncture Lounge is the first of its kind in Williamsburg. This model of care removes as many barriers as possible to accessible treatments ensuring a stable and reliable supply of affordable acupuncture for the WM and local community. ",
+        "event_date": "2024-04-24",
+        "long_desc": "The Acupuncture Lounge is your go-to, one-stop place to reset your nervous system when you are feeling stressed and overwhelmed. Sitting or lying down in a large room overlooking nature, the Licensed Acupuncturists will use micro-sized, one-time use, sterile stainless steel, filiform needles in the ear or distal location (elbows to fingers, knees to toes, or scalp) in a group setting to induce a relaxation response. You will then rest with the needles in for about 20-30 minutes. From beginning to end, the total appointment lasts approximately 30-45 min.\nSponsored by: Mcleod Tyler Wellness Center"
+    },
+    {
+        "start_time": "11:00",
+        "end_time": "15:00",
+        "title": "Order Your W&M Ring!",
+        "event_loc": "Sadler Center Atrium",
+        "building": "SADLER",
+        "short_desc": "",
+        "event_date": "2024-04-24",
+        "long_desc": "Special pricing applies for rings purchased during these ring sales events and all students who place an order will receive a custom W&M ring box. Order now to participate in the Fall 2024 Ring Ceremony held during Family Weekend in September. Any student with 60 credit hours or more is eligible to participate in the ceremony and in order to do so, rings must be ordered now. \nTo learn more about the W&M Ring, visit this link.\nSponsored by: Student Transition Engagement Programs of W&M"
+    },
+    {
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "title": "Women's Creativity Group for Faculty & Staff ",
+        "event_loc": "McLeod Tyler Wellness Center, Studio B",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "",
+        "event_date": "2024-04-24",
+        "long_desc": "Developed for female faculty and staff, the class is held at the McLeod Tyler Wellness Center and focuses on art and wellness. It provides a casual setting where female employees can drop-in and step away from work during lunchtime to explore and reflect on topics related to women, careers, and work-life balance in a supportive and uplifting environment. Participants will have an opportunity to explore a variety of art materials with some guidance from a creative arts therapist. No art-making experience is necessary, just a willingness to notice how good it feels to step away from work for a bit!\nEvery Wednesday at 12pm at the McLeod Tyler Wellness Center."
+    },
+    {
+        "start_time": "13:30",
+        "end_time": "15:00",
+        "title": "Pet therapy with Norman",
+        "event_loc": "McLeod Tyler Wellness Center",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "Come say hi to our new therapy dog, Norman, for some destressing between classes.",
+        "event_date": "2024-04-24",
+        "long_desc": "Norman is a rescue dog and was found in a farmer's field in Kentucky. He is a 6 year old Great Pyrenees who loves children, other dogs, and pretty much everyone!  Stop by for pet therapy and puppy love!\nSponsored by: Mcleod Tyler Wellness Center"
+    },
+    {
+        "start_time": "16:00",
+        "end_time": "16:45",
+        "title": "Supportive Workshop: Test Anxiety Solutions",
+        "event_loc": "McLeod Tyler Wellness Center, Studio A",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "",
+        "event_date": "2024-04-24",
+        "long_desc": "Have you struggled with taking exams? Do you feel that your test performance would improve if you had a better approach for managing your thinking and emotions around tests? Our Performance Psychology Director will lead a workshop designed to help you improve your reactions to testing situations, prepare in an intentional way, and execute with more confidence on the day of the exam.\nParticipants will learn about threats to clear thinking in evaluation situations.\nParticipants will examine new strategies for preparation and execution for important grading situations.\nParticipants will consider their own reactions to evaluation, and learn strategies to \u201cmanage the moments\u201d of distress.\nContent of the workshop emphasizes gaining perspective on the experience of test anxiety in a way that promotes a less anxious and more confident attitude toward managing fears.\nSponsored by: Counseling Center"
+    },
+    {
+        "start_time": "18:00",
+        "end_time": "20:00",
+        "title": "Reproductive and Maternal Health Panel Watch Party",
+        "event_loc": "Small Hall- Room 110",
+        "building": "SMALL",
+        "short_desc": "",
+        "event_date": "2024-04-24",
+        "long_desc": "Join us for a live panel discussion on maternal health, infertility, and reproductive health in the Black community, and the social determinants of health that have led to poor reproductive and maternal health outcomes for African American women. Plus discussion on Virginia & Federal laws that impact access to reproductive and maternal health services and advocate to improve health outcomes.\nSponsored by: Alpha Kappa Alpha"
+    },
+    {
+        "start_time": "18:30",
+        "end_time": "19:30",
+        "title": "Robotics Club Free Build",
+        "event_loc": "Small Makerspace Room 224",
+        "building": "SMALL",
+        "short_desc": "",
+        "event_date": "2024-04-24",
+        "long_desc": "Come out to Robotics Club's last GBM of the semester! Feel free to stop by or to stay and build something using supplies from the Robotics closet! We will also be announcing the election results for next year's eboard, so it'll be a great chance to meet the new execs and provide feedback about the club this semester!\nSponsored by: Robotics Club at William and Mary"
+    },
+    {
+        "start_time": "18:30",
+        "end_time": "19:30",
+        "title": "Tea Society Meeting",
+        "event_loc": "James Blair 223",
+        "building": "BLAIR",
+        "short_desc": "",
+        "event_date": "2024-04-24",
+        "long_desc": "Come treat yourself to a nice cup of tea with Tea Society! Just BYOM (bring your own mug)\nSponsored by: Tea Society"
+    },
+    {
+        "start_time": "18:45",
+        "end_time": "20:00",
+        "title": "Being Black in Asia: Study Abroad Panel Discussion and Info Session",
+        "event_loc": "Washington Hall Room 306",
+        "building": "WASHINGTON",
+        "short_desc": "",
+        "event_date": "2024-04-24",
+        "long_desc": "Interested in learning more about the Black student experience in an Asian country? Or studying abroad in general? Come to the Being Black in Asia Study Abroad Panel Discussion and Info Session! Come listen to Black students who have studied abroad in various Asian countries and ask questions about their experiences! Topics that will be addressed include care, interactions with locals, travel tips, scholarships, and more! Join us in Washington 306 on Wednesday, April 24th, from 6:45pm to 8pm. Pizza will be provided! All are welcome, so bring your friends!\nPlease RVSP here: https://forms.gle/XsMt1XeC5QqkiT9j8\nFor questions, contact: Abena Konadu (akonadu@wm.edu)\nSponsored by: Alpha Phi Alpha Fraternity, Inc."
+    },
+    {
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "title": "SA Finance Department Office Hours",
+        "event_loc": "Sadler 283",
+        "building": "SADLER",
+        "short_desc": "",
+        "event_date": "2024-04-25",
+        "long_desc": "The Student Assembly Finance Department is pleased to share that we will be holding weekly office hours for students to attend. Office Hours will be held by each Undersecretary of Finance and the Secretary of Finance. Our goal is to ensure you have the ability to ask any and all questions you may have about the OBAC funding process. The purpose of these Office Hours is to help educate Registered Student Organizations on the intricacies of our quarterly budget allocation process while also promoting transparency! \nSponsored by: Organization Budget Allocation Committee and Student Assembly"
+    },
+    {
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "title": "Pet Therapy With Stella ",
+        "event_loc": "McLeod Tyler Wellness Center, Lobby",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "",
+        "event_date": "2024-04-25",
+        "long_desc": "Stella and her handler, Dr. Mark Sullivan will be at the McLeod Tyler Wellness Center each Tuesday and Thursday from 11 AM - 1 PM. Stop by the Lobby to spend some time with Stella and a dose of Pet Therapy. \nSponsored by: Mcleod Tyler Wellness Center"
+    },
+    {
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "title": "FitWell Class: Mindful Arts with Sarah",
+        "event_loc": "McLeod Tyler Wellness Center, Studio A",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "Experience Art Therapy as we mix mindfulness with creativity, designing works of art as a way to calm the mind and gain focus.",
+        "event_date": "2024-04-25",
+        "long_desc": "Experience Art Therapy as we mix mindfulness with creativity, designing works of art as a way to calm the mind and gain focus. At each class, you'll be guided through various techniques, use different mediums, and learn the basic skills of mindfulness.\nEveryone is welcome! Neither art nor mindfulness experience is necessary to join!\nRegister in the W&M Wellness App or at wellness.wm.edu by searching \"mindful\" in the top search bar.\nSarah Balascio is a registered board-certified art therapist with a M.A. in Education and in Art Therapy. She is an adjunct lecturer and facilitates groups at the McLeod Tyler Wellness Center. She creates opportunities for students to express themselves through art in a supportive and mindful environment where they connect with themselves and their W&M community. Creative Arts groups are welcoming to all students, no experience is necessary just a willingness to experiment!"
+    },
+    {
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "title": "FGLI End of Year Celebration & Senior Recognition",
+        "event_loc": "Brinkley Commons, Miller Hall",
+        "building": "BSCHOOL",
+        "short_desc": "",
+        "event_date": "2024-04-25",
+        "long_desc": "Join us in celebrating FGLI students and their successes from the 2023-24 year! Graduating seniors will be recognized (if desired) and presented with their FGLI cord\nThis event is open to everyone (including FGLI mentors and mentees, faculty/professional staff, graduate students, etc.).\nThere will be guest speakers, food, fun, and celebrations. A more detailed itinerary will soon be made available soon. Semi-formal attire is encouraged but definitely not required.\nYou can RSVP HERE.\nSponsored by: Student Transition Engagement Programs of W&M"
+    },
+    {
+        "start_time": "20:00",
+        "end_time": "21:00",
+        "title": "ASL Club Meeting",
+        "event_loc": "Blair 229",
+        "building": "BLAIR",
+        "short_desc": "",
+        "event_date": "2024-04-25",
+        "long_desc": "Interested in American Sign Language? Want to learn more about Deaf culture? Looking for a place to practice signing while meeting new people? Join us in James Blair Hall Room 229 on Thursdays at 8PM to learn some basic ASL, improve your conversational skills, and more!!\nSponsored by: American Sign Language Club"
+    },
+    {
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "title": "Puppy Pride Party",
+        "event_loc": "McLeod Tyler Wellness Center, Lobby",
+        "building": "WELLNESS_CENTER",
+        "short_desc": "",
+        "event_date": "2024-04-26",
+        "long_desc": "Come rest and relax with the therapy puppies alongside your queer friends! This event is co-hosted by the Wellness Center.\nSponsored by: Lambda Alliance"
+    },
+    {
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "title": "GSWS Faculty Colloquia with Dr. Brett Wilson, Nothing\u2019s Straight in Tristram Shandy",
+        "event_loc": "Boswell Hall (formerly Morton Hall), Room 314",
+        "building": "BOSWELL",
+        "short_desc": "",
+        "event_date": "2024-04-26",
+        "long_desc": "Prof. Wilson will discuss how Laurence Sterne\u2019s 1759 novel Tristram Shandy reclaims the squiggly, eccentric, erratic, and failed in order to question the imperative for both novels and people to be straight. Brett D. Wilson is associate professor and chair of English at William & Mary. He is author of A Race of Female Patriots: Women and Public Spirit on the British Stage, 1688-1745 (Bucknell University Press, 2012). His articles on British 18th-century drama and poetry have appeared in ELH, Eighteenth-Century Studies, and in the essay collections Invoking Slavery in the Eighteenth-Century British Imagination (Ashgate, 2013) and Patriarchal Moments (Bloomsbury Academic, 2015). He is currently at work on a monograph, The Absent Governor.\nSponsored by: Gender, Sexuality & Women's Studies"
+    },
+    {
+        "start_time": "12:00",
+        "end_time": "14:00",
+        "title": "Grad Bell Ringing",
+        "event_loc": "Wren Building Courtyard",
+        "building": "WREN",
+        "short_desc": "",
+        "event_date": "2024-04-26",
+        "long_desc": "Reception for graduating graduate students after bell ringing\nSponsored by: Graduate Council"
+    },
+    {
+        "start_time": "12:00",
+        "end_time": "14:00",
+        "title": "Grad Student Bell Ringing",
+        "event_loc": "Wren Building",
+        "building": "WREN",
+        "short_desc": "Ringing the Wren Bell at the end of one's academic journey is a cherished William & Mary tradition!",
+        "event_date": "2024-04-26",
+        "long_desc": "Ringing the Wren Bell at the end of one's academic journey is a cherished William & Mary tradition!\nLine-up will begin outside the courtyard fence (on the Sunken Garden side of the Wren Building). Volunteers will be there to assist.\nA hand wash station is there for you to wash upon entering Wren.\nNo food or drink is permitted inside the Wren Building\nThe entire process should take anywhere from 5-15 minutes, depending on how many students are ringing the bell.\nWe hope students will share their experience!\nStudents may tag their public Twitter and Instagram photos with #wmgrad and the photos might be included in the pre-ceremony slideshows in Zable Stadium and on the #wmGrad social wall.\nPrivate Instagram account? Share photos with us via Box and we'll post them publicly for you.\n\nSponsored by: Commencement Planning Committee"
+    },
+    {
+        "start_time": "14:00",
+        "end_time": "16:00",
+        "title": "Order of Omega Popsicle Sale",
+        "event_loc": "Sadler Terrace (or Atrium if it rains)",
+        "building": "SADLER",
+        "short_desc": "",
+        "event_date": "2024-04-26",
+        "long_desc": "Cool down with us! Order of Omega is hosting a popsicle sale at Sadler on April 26th. Satisfy your sweet tooth and support the FSL community!\nSponsored by: Order of Omega"
+    },
+    {
+        "start_time": "15:00",
+        "end_time": "17:00",
+        "title": "Japan Studies Research Colloquium & \u304a\u5225\u308c\u4f1a",
+        "event_loc": "Washington Hall, Room 315",
+        "building": "WASHINGTON",
+        "short_desc": "Join us as Japanese Studies Majors present their final research projects for the Japanese Studies Senior Colloquium.  We will also present year-end awards in Japanese Studies and enjoy some snacks!",
+        "event_date": "2024-04-26",
+        "long_desc": "Join the Japanese Studies Program for our ceremony to mark the end of the academic year, the Japanese Studies Senior Colloquium and O-wakare-kai.  Eight Japanese Studies Majors will present their final research projects in two panels. We will also present year-end awards in Japanese Studies, take commemorative photographs, enjoy some snacks, celebrate our graduating seniors and wish them well! We have a fascinating and impressive slate of presentations, including:\nClaire Colley: The Aestheticization of Religious Imagery in the Japanese Music Genre Visual Kei\nRyleigh Line: How to Fill a Void: Exploring Pro-Natalism and Social Isolation in Japan through Emi Yagi's Diary of a Void\nChase Packer: Accepting Catastrophe: Suzume and the Aftermath of Disaster\nAiden Sanders: Representations of a New Generation in Tanaka Yasuo's Somehow Crystal: Youth Culture's Relationship with Politics and Wealth\nGabriella Shelton: Representations of Disease & Economy in Sweet Bean\nEmma Willis: Selling the Schoolgirl in Post-Bubble Japan: A Cultural Analysis of Bounce Ko Gals\nRuini Wu: Precarious Self, Love, and Consumerism: A Study of We Made a Beautiful Bouquet\nAnnemarie Zheng: Depiction of Isolation and Suicide in Ruth Ozeki's A Tale for the Time Being\n\nSponsored by: Japanese Studies Program"
+    },
+    {
+        "start_time": "15:30",
+        "end_time": "17:00",
+        "title": "Demos in the Sun",
+        "event_loc": "Small Hall Lawn",
+        "building": "SMALL",
+        "short_desc": "",
+        "event_date": "2024-04-26",
+        "long_desc": "Come out to the Small Hall Lawn to have fun with Physics! We'll have kinds of fun demos, from oobleck to 3-D bubbles to slinkies and liquid nitrogen ice cream! Stop by anytime between 3:30 and 5 on Friday, April 26th!\nSponsored by: Society of Physics Students"
+    },
+    {
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "title": "The UN and Regional Nuclear Nonproliferation",
+        "event_loc": "Tucker Hall, 127A",
+        "building": "TUCKER",
+        "short_desc": "Why do regions seek to ban nuclear weapons? What challenges do they face? What role can the United Nations play? Where will success come next? Izumi Nakamitsu, UN Under-Secretary-General & High Representative for Disarmament Affairs will discuss.",
+        "event_date": "2024-04-26",
+        "long_desc": "Regional nuclear-weapon-free zones have been a staple of nonproliferation efforts since the mid-1950s. Over the past 60 years, eight regions have been denuclearized under international law. To date, these agreements cover roughly 120 countries, most of the southern hemisphere, and close to two billion people.\nWhy do regions seek to ban nuclear weapons? What challenges do they face? What role can the United Nations play? And where will success come next? Please join the Global Research Institute for a conversation around these topics with Ms. Izumi Nakamitsu, UN Under-Secretary-General and High Representative for Disarmament Affairs. The event will take place at Tucker Theater on Friday, April 26 from 5 pm to 6 pm. RSVPs requested.\n\n\n\nSponsored by: Global Research Institute"
+    },
+    {
+        "start_time": "17:30",
+        "end_time": "19:00",
+        "title": "Jamnesty",
+        "event_loc": "Lodge 1 Sadler",
+        "building": "SADLER",
+        "short_desc": "",
+        "event_date": "2024-04-26",
+        "long_desc": "Come to W&M Amnesty International's annual fundraising concert: Jamensty! We will be having live performers and raising money for the Richmond International Rescue Committee (https://www.rescue.org/united-states/richmond-va), which helps settle refugees in the Richmond area. \nSponsored by: Amnesty International - W&M Chapter"
+    },
+    {
+        "start_time": "20:00",
+        "end_time": "21:00",
+        "title": "7th Grade Sketch Comedy Presents: 7 THINGS I HATE ABOUT thGRADE SKETCH COMEDY",
+        "event_loc": "Ewell Recital Hall",
+        "building": "EWELL",
+        "short_desc": "",
+        "event_date": "2024-04-26",
+        "long_desc": "Come out this Friday, April 26th to Ewell Recital Hall for our last show of the semester. We will be performing the seniors' favorite sketches of the past four years, along with some fresh new sketches never before seen on stage. Tears will be shed. Lives will be changed. You will cry out of laughter and out of sentimentality because the seniors are leaving. You do not want to miss this. \nSponsored by: 7th Grade Sketch Comedy"
+    },
+    {
+        "start_time": "20:00",
+        "end_time": "21:30",
+        "title": "Salsa Club Showcase 2024",
+        "event_loc": "Commonwealth Auditorium- Sadler Center",
+        "building": "SADLER",
+        "short_desc": "",
+        "event_date": "2024-04-26",
+        "long_desc": "Our annual showcase with performances from (and created by) students! Featuring several of the different styles taught in the club, this event is how Salsa Club showcases all we've learned in the past year.\nSponsored by: Salsa Club"
+    }
+]

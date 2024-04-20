@@ -1,1 +1,3 @@
 node_modules
+conf.json
+scripts/dev_load.sh

@@ -23,7 +23,9 @@
   "homepage": "https://github.com/l-zheng24/tribe-events#readme",
   "dependencies": {
     "concurrently": "^8.2.2",
+    "db": "^6.0.3",
     "express": "^4.19.2",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.5"
   }
 }

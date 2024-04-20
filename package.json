@@ -22,10 +22,16 @@
   },
   "homepage": "https://github.com/l-zheng24/tribe-events#readme",
   "dependencies": {
+    "@arcgis/core": "^4.29.10",
+    "antd": "^5.16.2",
     "concurrently": "^8.2.2",
     "db": "^6.0.3",
     "express": "^4.19.2",
+    "leaflet": "^1.9.4",
     "nodemon": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
     "pg": "^8.11.5"
   }
 }

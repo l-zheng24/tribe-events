@@ -1,6 +1,10 @@
 const express = require('express');
 const path = require('path');
-const db = require('./db');
+// const db = require('./db');
+const itemsPool = require('./dbConfig')
+
+const dotenv = require('dotenv');
+dotenv.config();
 
 const app = express();
 
@@ -16,12 +20,11 @@ app.use(express.static(path.join(__dirname, '../frontend')));
 
 app.get('/', async (req, res) => {
     try {
-      const result = await db.query('SELECT * FROM event_data');
-      res.json(result.rows);
-      console.log(res.json(result.rows))
+        const result = await itemsPool.query('SELECT * FROM event_data');
+        res.json(result.json);
     //   res.send(result.rows);
     } catch (err) {
-      console.error(err);
+        console.error(err);
     }
 });
 

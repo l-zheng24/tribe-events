@@ -26,12 +26,16 @@ const EventMap = () => {
     setShowModal(false);
   };
 
-  async function getData() {
-    const response = await fetch("http://localhost:8080/api", {
-      method: "GET",
+  async function getData(name) {
+    let data = {
+      building: name,
+    };
+    const response = await fetch("http://localhost:8080/api/building", {
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
+      body: JSON.stringify(data),
     });
     const response_text = await response.json();
     console.log("data", response_text);
@@ -211,7 +215,6 @@ const EventMap = () => {
       },
       // Add more building data as needed
     ];
-    getData();
     if (mapDiv.current) {
       /**
        * Initialize application
@@ -270,6 +273,7 @@ const EventMap = () => {
             if (building.name) {
               // checking all of a users clicks and only shows modal if they click a button
               console.log("Selected building:", building);
+              getData(building.name);
               setBuildingName(building.alias);
               handleShow();
             }

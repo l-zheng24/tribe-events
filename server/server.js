@@ -50,4 +50,27 @@ router.post('/', async (req, res) => {
     }
 })
 
+router.post('/building', async (req, res) => {
+    const { building } = req.body;
+    try {
+        // do filtering here
+        const query = {
+            text: 'SELECT * FROM event_data WHERE building = $1',
+            values: [building],
+        };        
+        itemsPool.query(query, (error, result) => {
+            if (error) {
+              // Handle query error
+              console.error('Error executing query:', error);
+              res.status(500).send('Error executing query');
+            } else {
+              // Query successful, send the result back
+              res.json(result.rows);
+            }
+        });
+    } catch (error) {
+        
+    }
+})
+
 module.exports = router;

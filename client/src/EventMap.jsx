@@ -49,7 +49,7 @@ const EventMap = () => {
       building: name,
       date: date,
     };
-    const response = await fetch("https://tribe-events-api.onrender.com:8080/api/events", {
+    const response = await fetch("https://tribe-events-api.onrender.com/api/events", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

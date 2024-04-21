@@ -50,13 +50,13 @@ router.post('/', async (req, res) => {
     }
 })
 
-router.post('/building', async (req, res) => {
-    const { building } = req.body;
+router.post('/events', async (req, res) => {
+    const { building, date } = req.body;
     try {
         // do filtering here
         const query = {
-            text: 'SELECT * FROM event_data WHERE UPPER(building) = UPPER($1)',
-            values: [building],
+            text: 'SELECT * FROM event_data WHERE UPPER(building) = UPPER($1) AND event_date = $2 ORDER BY start_time, title',
+            values: [building, date],
         };        
         itemsPool.query(query, (error, result) => {
             if (error) {
@@ -64,6 +64,7 @@ router.post('/building', async (req, res) => {
               console.error('Error executing query:', error);
               res.status(500).send('Error executing query');
             } else {
+                console.log(result.rows)
               // Query successful, send the result back
               res.json(result.rows);
             }

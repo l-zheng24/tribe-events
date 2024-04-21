@@ -44,7 +44,7 @@ export default function BuildingModal(props) {
         {eventData && eventData.length > eventsPerPage && (
           <Flex justify="center" align="center" style={{padding:'10px'}}>
             {Array.from({ length: Math.ceil(eventData.length / eventsPerPage) }, (_, i) => (
-              <Button key={i} onClick={() => paginate(i + 1)} type="primary" style={{ backgroundColor: i==currentButton ? "#475B63" : "#729B79" }}>
+              <Button key={i} onClick={() => paginate(i + 1)} type="primary" style={{ backgroundColor: i===currentButton ? "#475B63" : "#729B79", margin: "2px" }}>
                 {i + 1}
               </Button>
             ))}

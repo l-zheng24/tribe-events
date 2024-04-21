@@ -13,7 +13,7 @@ function convert(input) {
 
   console.log(event);
   return (
-    <Card style={{backgroundColor: '#F3E8EE'}}>
+    <Card style={{backgroundColor: '#F3E8EE', margin: '10px'}}>
       <Row>
         <b>{event.title}</b>
       </Row>
@@ -29,7 +29,7 @@ function convert(input) {
         <Col span={12}>
           <b>End time: </b> {convert(event.end_time)}
         </Col>
-        <Collapse style={{backgroundColor:'#BACDB0'}}>
+        <Collapse style={{backgroundColor:'#BACDB0', marginTop: "4px"}}>
             <Collapse.Panel header="Description" key="1">
                 {event.long_desc}
             </Collapse.Panel>

@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:install": "npm install && cd server && npm install && cd ../frontend && npm install",
-    "dev:start:frontend": "cd frontend && npm start",
+    "dev:install": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev:start:client": "cd client && npm start",
     "dev:start:server": "cd server && npm start",
-    "dev:start": "concurrently --kill-others-on-fail \"npm run dev:start:server\" \"npm run dev:start:frontend\""
+    "dev:start": "concurrently --kill-others-on-fail \"npm run dev:start:server\" \"npm run dev:start:client\""
   },
   "repository": {
     "type": "git",

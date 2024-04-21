@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Modal, Button, Flex, Row, Space } from "antd";
+import { Modal, Button, Flex } from "antd";
 import EventCard from "./EventCard";
 
 export default function BuildingModal(props) {

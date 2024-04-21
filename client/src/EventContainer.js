@@ -1,5 +1,4 @@
-import{ Card }from"antd";
-import{ Layout, Modal }from"antd";
+import{ Modal }from"antd";
 
 export default function EventContainer(props) {
     const { showModal, handleExitModal, buildingName, eventData } = props;

@@ -1,8 +1,5 @@
-import React, { useState } from "react";
-import { Modal } from "antd";
-import { Card, Divider } from "antd";
-import { Col, Row } from "antd";
-import{ Collapse }from"antd";
+import React from "react";
+import { Card, Col, Collapse, Row } from "antd";
 import { DateTime }  from "luxon";
 
 export default function EventCard(props) {

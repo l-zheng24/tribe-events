@@ -1,7 +1,7 @@
 import MapView from "@arcgis/core/views/MapView";
 import Map from "@arcgis/core/Map";
 import React, { useEffect, useRef, useState } from "react";
-import WebStyleSymbol from "@arcgis/core/symbols/WebStyleSymbol.js";
+import WebStyleSymbol from "@arcgis/core/symbols/WebStyleSymbol";
 import GraphicsLayer from "@arcgis/core/layers/GraphicsLayer";
 import Graphic from "@arcgis/core/Graphic";
 import BuildingModal from "./BuildingModal";
@@ -19,7 +19,7 @@ const EventMap = () => {
     dayjs().format("YYYY-MM-DD").toString()
   );
 
-  const { Title, Paragraph, Text, Link } = Typography;
+  const { Title } = Typography;
 
   const handleDateChange = (props) => {
 

@@ -30,7 +30,7 @@ const EventMap = () => {
     setCustomDate(dateString);
   };
 
-  async function getData(name) {
+  async function getData(name, customDate) {
     let data = {
       building: name,
       date: customDate,
@@ -280,7 +280,7 @@ const EventMap = () => {
             if (building.name) {
               // checking all of a users clicks and only shows modal if they click a button
               console.log("Selected building:", building);
-              getData(building.name);
+              getData(building.name, customDate);
               setBuildingName(building.alias);
               handleShow();
             }
@@ -295,17 +295,17 @@ const EventMap = () => {
   }, [customDate]);
 
   return (
-    <div style={{ marginTop: "2%" }}>
+    <div>
       <Row>
-        <Col span={13} push={4}>
+        <Col span={2} push={2}>
           <div
             className="mapDiv"
             ref={mapDiv}
             style={{
               marginLeft: "13%",
-              marginTop: "2%",
-              height: "75vh",
-              width: "75vw",
+              marginTop: "38%",
+              height: "80vh",
+              width: "80vw",
             }}
           >
             <BuildingModal
@@ -316,12 +316,13 @@ const EventMap = () => {
             />
           </div>
         </Col>
-        <Col span={6} pull={12}>
+        <Col span={3} push={17}>
           <DatePicker
             format={"YYYY-MM-DD"}
             onChange={onChange}
             defaultValue={dayjs()}
             picker="date"
+            style={{marginTop: "5%"}}
           />
         </Col>
       </Row>

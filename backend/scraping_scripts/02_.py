@@ -1,10 +1,12 @@
 import requests
 import json 
 
+
+# Json => Database
 with open('data/event_data.json') as f:
     data = json.load(f)
 
-url = "http://localhost:8080/data/"
+url = "http://localhost:8080/api"
 headers = {'Content-Type': 'application/json'}
 try:
     response = requests.post(url, json=data, headers=headers)

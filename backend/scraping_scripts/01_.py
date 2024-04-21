@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from datetime import timedelta
 import json
 
+#Script to scrape and parse data
 
 def parse_data(time_str):
     try:
@@ -98,7 +99,8 @@ num_iters = 0
 
 cur_date = datetime.now().date()
 
-for iter in range(7):
+for iter in range(10,20):
+    print("On date: ", iter)
     if (num_iters != 0):
         # For each day of the week
         cur_date += timedelta(days=1)
@@ -144,8 +146,7 @@ for iter in range(7):
             short_desc = wm_event.find_element(By.CLASS_NAME, "event_short_desc").text
 
             href = wm_event.find_element(By.CLASS_NAME, "event_title").get_attribute("href")
-            long_desc_hrefs.append(href)
-
+            
             event_info["start_time"] = start_time.strip()
             event_info["end_time"] = end_time.strip()
             event_info["title"] = title
@@ -155,6 +156,8 @@ for iter in range(7):
             event_info["event_date"] = cur_date
 
             event_data.append(event_info)
+            long_desc_hrefs.append(href)
+
         except Exception as e:
             print("Error parsing event data", wm_event)
             print(e)
@@ -166,8 +169,8 @@ for idx, href in enumerate(long_desc_hrefs):
     long_desc = driver.find_element(By.ID, "event_longdesc").text
     event_data[idx]["long_desc"] = long_desc
 
-# with open('data\event_data.json', 'w') as f:
-#     json.dump(event_data, f, indent=4, default=str)
+with open('data\event_data.json', 'w') as f:
+    json.dump(event_data, f, indent=4, default=str)
 
 url = "http://localhost:8000/data"
 

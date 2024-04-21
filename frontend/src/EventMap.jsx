@@ -14,182 +14,10 @@ import BuildingModal from "./BuildingModal";
 const EventMap = () => {
   const mapDiv = useRef(null);
   const [selectedBuilding, setSelectedBuilding] = useState();
+  const [eventData, setEventData] = useState();
 
   const [showModal, setShowModal] = useState(false);
   const [buildingName, setBuildingName] = useState("");
-
-  const buildingData = [
-    {
-      id: 1,
-      name: "Sadler",
-      alias: "Sadler Center",
-      location: [37.271753, -76.714295],
-    },
-    {
-      id: 2,
-      name: "Swem",
-      alias: "Swem Library",
-      location: [37.269846, -76.716089],
-    },
-    {
-      id: 3,
-      name: "Small",
-      alias: "Small Hall",
-      location: [37.268801, -76.716854],
-    },
-    {
-      id: 4,
-      name: "Matoaka_Amphitheater",
-      alias: "Matoaka Amphitheater",
-      location: [37.266229, -76.721958],
-    },
-    { id: 5, name: "ISC", alias: "ISC", location: [37.269568, -76.714442] },
-    {
-      id: 6,
-      name: "Bschool",
-      alias: "Business School/Miller Hall",
-      location: [37.266272, -76.718243],
-    },
-    {
-      id: 7,
-      name: "Ewell",
-      alias: "Ewell Hall",
-      location: [37.270174, -76.709936],
-    },
-    {
-      id: 8,
-      name: "Blow",
-      alias: "Blow Hall",
-      location: [37.272534, -76.711309],
-    },
-    {
-      id: 9,
-      name: "Zable",
-      alias: "Zable Stadium",
-      location: [37.273053, -76.71381],
-    },
-    {
-      id: 10,
-      name: "Lake_Matoaka",
-      alias: "Lake Matoaka",
-      location: [37.267298, -76.725535],
-    },
-    {
-      id: 11,
-      name: "Wren",
-      alias: "Wren Building",
-      location: [37.270843, -76.70891],
-    },
-    {
-      id: 12,
-      name: "Muscarelle",
-      alias: "Muscarelle Musuem of Art",
-      location: [37.267953, -76.715925],
-    },
-    {
-      id: 13,
-      name: "Botetourt_Complex",
-      alias: "Boutetourt Complex",
-      location: [37.27054, -76.720583],
-    },
-    {
-      id: 14,
-      name: "Jones",
-      alias: "Jones Hall",
-      location: [37.268069, -76.716786],
-    },
-    {
-      id: 15,
-      name: "Blair",
-      alias: "James Blair Hall",
-      location: [37.271487, -76.711776],
-    },
-    {
-      id: 16,
-      name: "Wellness_Center",
-      alias: "McLeod Wellness Center",
-      location: [37.271187, -76.715141],
-    },
-    {
-      id: 17,
-      name: "Law_School",
-      alias: "Law School",
-      location: [37.264818, -76.705239],
-    },
-    {
-      id: 18,
-      name: "Boswell",
-      alias: "Boswell Hall",
-      location: [37.267368, -76.716725],
-    },
-    {
-      id: 19,
-      name: "Cohen",
-      alias: "Cohen Career Center",
-      location: [37.271964, -76.713631],
-    },
-    {
-      id: 20,
-      name: "Chancellors",
-      alias: "Chancellors Hall",
-      location: [37.271464, -76.710733],
-    },
-    {
-      id: 21,
-      name: "Crim_Dell_Meadow",
-      alias: "Crim Dell Meadow",
-      location: [37.270819, -76.712572],
-    },
-    {
-      id: 22,
-      name: "School_of_Ed",
-      alias: "School of Education",
-      location: [37.278273, -76.7231],
-    },
-    {
-      id: 23,
-      name: "Grind",
-      alias: "Daily Grind",
-      location: [37.271113, -76.714156],
-    },
-    {
-      id: 24,
-      name: "McGlothlin",
-      alias: "McGlothlin Hall",
-      location: [37.27017, -76.711723],
-    },
-    {
-      id: 25,
-      name: "Tucker",
-      alias: "Tucker Hall",
-      location: [37.271477, -76.709918],
-    },
-    {
-      id: 27,
-      name: "Washington",
-      alias: "Washington Hall",
-      location: [37.270179, -76.710759],
-    },
-    {
-      id: 28,
-      name: "Entrepreneurship",
-      alias: "Entreneneurship Center",
-      location: [37.273002, -76.711059],
-    },
-    {
-      id: 29,
-      name: "Phi Beta",
-      alias: "Phi Beta Kappa Hall",
-      location: [37.268264, -76.715189],
-    },
-    {
-      id: 30,
-      name: "JAMESTOWN_FIELD",
-      alias: "Williamsburg-Jamestown Airport",
-      location: [37.241241, -76.717857],
-    },
-    // Add more building data as needed
-  ];
 
   const handleShow = () => {
     setShowModal(true);
@@ -207,9 +35,182 @@ const EventMap = () => {
     });
     const response_text = await response.json();
     console.log("data", response_text);
+    setEventData(response_text);
   }
 
   useEffect(() => {
+    const buildingData = [
+      {
+        id: 1,
+        name: "Sadler",
+        alias: "Sadler Center",
+        location: [37.271753, -76.714295],
+      },
+      {
+        id: 2,
+        name: "Swem",
+        alias: "Swem Library",
+        location: [37.269846, -76.716089],
+      },
+      {
+        id: 3,
+        name: "Small",
+        alias: "Small Hall",
+        location: [37.268801, -76.716854],
+      },
+      {
+        id: 4,
+        name: "Matoaka_Amphitheater",
+        alias: "Matoaka Amphitheater",
+        location: [37.266229, -76.721958],
+      },
+      { id: 5, name: "ISC", alias: "ISC", location: [37.269568, -76.714442] },
+      {
+        id: 6,
+        name: "Bschool",
+        alias: "Business School/Miller Hall",
+        location: [37.266272, -76.718243],
+      },
+      {
+        id: 7,
+        name: "Ewell",
+        alias: "Ewell Hall",
+        location: [37.270174, -76.709936],
+      },
+      {
+        id: 8,
+        name: "Blow",
+        alias: "Blow Hall",
+        location: [37.272534, -76.711309],
+      },
+      {
+        id: 9,
+        name: "Zable",
+        alias: "Zable Stadium",
+        location: [37.273053, -76.71381],
+      },
+      {
+        id: 10,
+        name: "Lake_Matoaka",
+        alias: "Lake Matoaka",
+        location: [37.267298, -76.725535],
+      },
+      {
+        id: 11,
+        name: "Wren",
+        alias: "Wren Building",
+        location: [37.270843, -76.70891],
+      },
+      {
+        id: 12,
+        name: "Muscarelle",
+        alias: "Muscarelle Musuem of Art",
+        location: [37.267953, -76.715925],
+      },
+      {
+        id: 13,
+        name: "Botetourt_Complex",
+        alias: "Boutetourt Complex",
+        location: [37.27054, -76.720583],
+      },
+      {
+        id: 14,
+        name: "Jones",
+        alias: "Jones Hall",
+        location: [37.268069, -76.716786],
+      },
+      {
+        id: 15,
+        name: "Blair",
+        alias: "James Blair Hall",
+        location: [37.271487, -76.711776],
+      },
+      {
+        id: 16,
+        name: "Wellness_Center",
+        alias: "McLeod Wellness Center",
+        location: [37.271187, -76.715141],
+      },
+      {
+        id: 17,
+        name: "Law_School",
+        alias: "Law School",
+        location: [37.264818, -76.705239],
+      },
+      {
+        id: 18,
+        name: "Boswell",
+        alias: "Boswell Hall",
+        location: [37.267368, -76.716725],
+      },
+      {
+        id: 19,
+        name: "Cohen",
+        alias: "Cohen Career Center",
+        location: [37.271964, -76.713631],
+      },
+      {
+        id: 20,
+        name: "Chancellors",
+        alias: "Chancellors Hall",
+        location: [37.271464, -76.710733],
+      },
+      {
+        id: 21,
+        name: "Crim_Dell_Meadow",
+        alias: "Crim Dell Meadow",
+        location: [37.270819, -76.712572],
+      },
+      {
+        id: 22,
+        name: "School_of_Ed",
+        alias: "School of Education",
+        location: [37.278273, -76.7231],
+      },
+      {
+        id: 23,
+        name: "Grind",
+        alias: "Daily Grind",
+        location: [37.271113, -76.714156],
+      },
+      {
+        id: 24,
+        name: "McGlothlin",
+        alias: "McGlothlin Hall",
+        location: [37.27017, -76.711723],
+      },
+      {
+        id: 25,
+        name: "Tucker",
+        alias: "Tucker Hall",
+        location: [37.271477, -76.709918],
+      },
+      {
+        id: 27,
+        name: "Washington",
+        alias: "Washington Hall",
+        location: [37.270179, -76.710759],
+      },
+      {
+        id: 28,
+        name: "Entrepreneurship",
+        alias: "Entreneneurship Center",
+        location: [37.273002, -76.711059],
+      },
+      {
+        id: 29,
+        name: "Phi Beta",
+        alias: "Phi Beta Kappa Hall",
+        location: [37.268264, -76.715189],
+      },
+      {
+        id: 30,
+        name: "JAMESTOWN_FIELD",
+        alias: "Williamsburg-Jamestown Airport",
+        location: [37.241241, -76.717857],
+      },
+      // Add more building data as needed
+    ];
     getData();
     if (mapDiv.current) {
       /**
@@ -297,6 +298,7 @@ const EventMap = () => {
         showModal={showModal}
         handleExitModal={handleExit}
         buildingName={buildingName}
+        eventData={eventData}
       />
     </div>
   );

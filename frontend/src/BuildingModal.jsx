@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Modal } from "antd";
 export default function BuildingModal(props) {
-  const { showModal, handleExitModal, buildingName } = props;
+  const { showModal, handleExitModal, buildingName, eventData } = props;
+
+  console.log(eventData);
 
   return (
     <Modal

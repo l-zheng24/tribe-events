@@ -40,3 +40,17 @@
 .button-color {
   color: #475B63 !important;
 }
+
+.title {
+  display: flex;
+}
+
+.title-left {
+  float: left;
+  margin: auto;
+}
+
+.title-right {
+  float: right;
+  margin: auto;
+}

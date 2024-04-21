@@ -305,21 +305,24 @@ const EventMap = () => {
 
   return (
     <div>
-      <Row>
-        <Col span={24} push={3}>
-        <Typography>
-          <Title>
-          William & Mary Event Viewer
-          </Title>
-          <Paragraph>
-            An interactive map that can be used to view W&M events over time in each building.
-          </Paragraph>
-          <Paragraph>
-          To use, select a date from the date picker and click on a building to view events.
-          </Paragraph>
-        </Typography>
-        </Col>
-      </Row>
+      <div className="title">
+        <div className="title-left">
+          <Typography>
+            <Title level={4}>
+              William & Mary Event Viewer
+            </Title>
+          </Typography>
+        </div>
+        <div className="title-right">
+          <DatePicker
+              format={"YYYY-MM-DD"}
+              onChange={handleDateChange}
+              defaultValue={dayjs()}
+              picker="date"
+              style={{marginTop: "5%"}}
+          />
+        </div>
+      </div>
     <Row>
       <Col span={2} push={2}>
         <div
@@ -327,7 +330,7 @@ const EventMap = () => {
           ref={mapDiv}
           style={{
             marginLeft: "13%",
-            marginTop: "38%",
+            marginTop: "8%",
             height: "80vh",
             width: "80vw",
           }}
@@ -340,15 +343,7 @@ const EventMap = () => {
           />
         </div>
       </Col>
-      <Col span={3} push={17}>
-        <DatePicker
-          format={"YYYY-MM-DD"}
-          onChange={handleDateChange}
-          defaultValue={dayjs()}
-          picker="date"
-          style={{marginTop: "5%"}}
-        />
-      </Col>
+      
     </Row>
   </div>
   );

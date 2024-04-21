@@ -5,7 +5,7 @@ import WebStyleSymbol from "@arcgis/core/symbols/WebStyleSymbol.js";
 import GraphicsLayer from "@arcgis/core/layers/GraphicsLayer";
 import Graphic from "@arcgis/core/Graphic";
 import BuildingModal from "./BuildingModal";
-import { DatePicker, Col, Row } from "antd";
+import { DatePicker, Col, Row, Typography} from "antd";
 import dayjs from "dayjs";
 
 const EventMap = () => {
@@ -18,6 +18,8 @@ const EventMap = () => {
   const [selectedDate, setSelectedDate] = useState(
     dayjs().format("YYYY-MM-DD").toString()
   );
+
+  const { Title, Paragraph, Text, Link } = Typography;
 
   const handleDateChange = (props) => {
 
@@ -303,6 +305,21 @@ const EventMap = () => {
 
   return (
     <div>
+      <Row>
+        <Col span={24} push={3}>
+        <Typography>
+          <Title>
+          William & Mary Event Viewer
+          </Title>
+          <Paragraph>
+            An interactive map that can be used to view W&M events over time in each building.
+          </Paragraph>
+          <Paragraph>
+          To use, select a date from the date picker and click on a building to view events.
+          </Paragraph>
+        </Typography>
+        </Col>
+      </Row>
     <Row>
       <Col span={2} push={2}>
         <div

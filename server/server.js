@@ -55,7 +55,7 @@ router.post('/building', async (req, res) => {
     try {
         // do filtering here
         const query = {
-            text: 'SELECT * FROM event_data WHERE building = $1',
+            text: 'SELECT * FROM event_data WHERE UPPER(building) = UPPER($1)',
             values: [building],
         };        
         itemsPool.query(query, (error, result) => {

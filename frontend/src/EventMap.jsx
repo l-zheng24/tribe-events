@@ -1,20 +1,20 @@
 import MapView from "@arcgis/core/views/MapView";
 import Map from "@arcgis/core/Map";
 import React, { useEffect, useRef, useState } from "react";
-import ReactDOM from "react-dom";
-import SimpleComponent from "./SimpleComponent";
-import { Button } from "antd";
 import WebStyleSymbol from "@arcgis/core/symbols/WebStyleSymbol.js";
 import GraphicsLayer from "@arcgis/core/layers/GraphicsLayer";
 import Graphic from "@arcgis/core/Graphic";
-import SimpleMarkerSymbol from "@arcgis/core/symbols/SimpleMarkerSymbol.js";
-import * as reactiveUtils from "@arcgis/core/core/reactiveUtils.js";
 import BuildingModal from "./BuildingModal";
+import { DatePicker, Col, Row } from "antd";
+import dayjs from "dayjs";
 
 const EventMap = () => {
   const mapDiv = useRef(null);
   const [selectedBuilding, setSelectedBuilding] = useState();
   const [eventData, setEventData] = useState();
+  const [customDate, setCustomDate] = useState(
+    dayjs().format("YYYY-MM-DD").toString()
+  );
 
   const [showModal, setShowModal] = useState(false);
   const [buildingName, setBuildingName] = useState("");
@@ -26,11 +26,18 @@ const EventMap = () => {
     setShowModal(false);
   };
 
+  const onChange = (value, dateString) => {
+    setCustomDate(dateString);
+  };
+
   async function getData(name) {
     let data = {
       building: name,
+      date: customDate,
     };
-    const response = await fetch("http://localhost:8080/api/building", {
+
+    console.log("data", data);
+    const response = await fetch("http://localhost:8080/api/events", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -285,25 +292,39 @@ const EventMap = () => {
         view && view.destroy();
       };
     }
-  }, []);
+  }, [customDate]);
 
   return (
-    <div
-      className="mapDiv"
-      ref={mapDiv}
-      style={{
-        marginLeft: "13%",
-        marginTop: "2%",
-        height: "75vh",
-        width: "75vw",
-      }}
-    >
-      <BuildingModal
-        showModal={showModal}
-        handleExitModal={handleExit}
-        buildingName={buildingName}
-        eventData={eventData}
-      />
+    <div style={{ marginTop: "2%" }}>
+      <Row>
+        <Col span={13} push={4}>
+          <div
+            className="mapDiv"
+            ref={mapDiv}
+            style={{
+              marginLeft: "13%",
+              marginTop: "2%",
+              height: "75vh",
+              width: "75vw",
+            }}
+          >
+            <BuildingModal
+              showModal={showModal}
+              handleExitModal={handleExit}
+              buildingName={buildingName}
+              eventData={eventData}
+            />
+          </div>
+        </Col>
+        <Col span={6} pull={12}>
+          <DatePicker
+            format={"YYYY-MM-DD"}
+            onChange={onChange}
+            defaultValue={dayjs()}
+            picker="date"
+          />
+        </Col>
+      </Row>
     </div>
   );
 };

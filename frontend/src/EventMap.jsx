@@ -12,12 +12,22 @@ const EventMap = () => {
   const mapDiv = useRef(null);
   const [selectedBuilding, setSelectedBuilding] = useState();
   const [eventData, setEventData] = useState();
-  const [customDate, setCustomDate] = useState(
-    dayjs().format("YYYY-MM-DD").toString()
-  );
 
   const [showModal, setShowModal] = useState(false);
   const [buildingName, setBuildingName] = useState("");
+  const [selectedDate, setSelectedDate] = useState(
+    dayjs().format("YYYY-MM-DD").toString()
+  );
+
+  const handleDateChange = (props) => {
+
+    if (props === null) {
+      return;
+    }
+    const incrementedMonth = parseInt(props.$M) + 1;
+    const date = props.$y + "-" + String(incrementedMonth) + "-" + props.$D;
+    setSelectedDate(date);
+  }
 
   const handleShow = () => {
     setShowModal(true);
@@ -26,17 +36,17 @@ const EventMap = () => {
     setShowModal(false);
   };
 
-  const onChange = (value, dateString) => {
-    setCustomDate(dateString);
-  };
-
-  async function getData(name, customDate) {
+  useEffect(() => {
+  // useEffect for fetching data when selectedDate changes
+  if (selectedBuilding && selectedDate) {
+    getData(selectedBuilding.name, selectedDate);
+  }
+}, [selectedBuilding, selectedDate]);
+  async function getData(name, date){
     let data = {
       building: name,
-      date: customDate,
+      date: date,
     };
-
-    console.log("data", data);
     const response = await fetch("http://localhost:8080/api/events", {
       method: "POST",
       headers: {
@@ -45,9 +55,8 @@ const EventMap = () => {
       body: JSON.stringify(data),
     });
     const response_text = await response.json();
-    console.log("data", response_text);
     setEventData(response_text);
-  }
+  } 
 
   useEffect(() => {
     const buildingData = [
@@ -233,7 +242,7 @@ const EventMap = () => {
       const view = new MapView({
         container: mapDiv.current, // The id or node representing the DOM element containing the view.
         map: webmap, // An instance of a Map object to display in the view.
-        center: [-76.7077, 37.271],
+        center: [-76.711455, 37.270664],
         scale: 3000, // Represents the map scale at the center of the view.
         constraints: {
           extent: {
@@ -278,11 +287,9 @@ const EventMap = () => {
             const graphic = response.results[0].graphic;
             const building = graphic.attributes;
             if (building.name) {
-              // checking all of a users clicks and only shows modal if they click a button
-              console.log("Selected building:", building);
-              getData(building.name, customDate);
+              setSelectedBuilding(building); // Update selectedBuilding state
               setBuildingName(building.alias);
-              handleShow();
+              handleShow(); // Moved inside click event
             }
           }
         });
@@ -292,41 +299,41 @@ const EventMap = () => {
         view && view.destroy();
       };
     }
-  }, [customDate]);
+  }, []);
 
   return (
     <div>
-      <Row>
-        <Col span={2} push={2}>
-          <div
-            className="mapDiv"
-            ref={mapDiv}
-            style={{
-              marginLeft: "13%",
-              marginTop: "38%",
-              height: "80vh",
-              width: "80vw",
-            }}
-          >
-            <BuildingModal
-              showModal={showModal}
-              handleExitModal={handleExit}
-              buildingName={buildingName}
-              eventData={eventData}
-            />
-          </div>
-        </Col>
-        <Col span={3} push={17}>
-          <DatePicker
-            format={"YYYY-MM-DD"}
-            onChange={onChange}
-            defaultValue={dayjs()}
-            picker="date"
-            style={{marginTop: "5%"}}
+    <Row>
+      <Col span={2} push={2}>
+        <div
+          className="mapDiv"
+          ref={mapDiv}
+          style={{
+            marginLeft: "13%",
+            marginTop: "38%",
+            height: "80vh",
+            width: "80vw",
+          }}
+        >
+          <BuildingModal
+            showModal={showModal}
+            handleExitModal={handleExit}
+            buildingName={buildingName}
+            eventData={eventData}
           />
-        </Col>
-      </Row>
-    </div>
+        </div>
+      </Col>
+      <Col span={3} push={17}>
+        <DatePicker
+          format={"YYYY-MM-DD"}
+          onChange={handleDateChange}
+          defaultValue={dayjs()}
+          picker="date"
+          style={{marginTop: "5%"}}
+        />
+      </Col>
+    </Row>
+  </div>
   );
 };
 
